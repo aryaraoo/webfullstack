@@ -1,0 +1,127 @@
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #1a1a1a;
+  border: 2px solid #ff69b4;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+form label {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+form input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+  background: #2a2a2a;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  transition: border-color 300ms, box-shadow 300ms;
+}
+
+form input:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.8);
+  outline: none;
+}
+
+form button {
+  width: 48%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #ff69b4;
+  border-radius: 5px;
+  background: transparent;
+  color: #ff69b4;
+  cursor: pointer;
+  transition: all 300ms;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background: #ff69b4;
+  color: #fff;
+  box-shadow: 0 0 10px #ff69b4;
+}
+
+form button:first-of-type {
+  margin-right: 4%;
+}
+
+@media (max-width: 768px) {
+  form button {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+}
+
+  @keyframes rotateLogo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0.5rem;
+  }
+  
+  button:hover {
+    background: white;
+    color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+    border-color: #007bff;
+  }
+  
+  .reset-btn {
+    background: #ff4d4d;
+    border-color: #ff4d4d;
+  }
+  
+  .reset-btn:hover {
+    background: white;
+    color: #ff4d4d;
+    box-shadow: 0 0 10px rgba(255, 77, 77, 0.7);
+  }
+  
+  .increment-btn {
+    background: #28a745;
+    border-color: #28a745;
+  }
+  
+  .increment-btn:hover {
+    background: white;
+    color: #28a745;
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.7);
+  }
+
+  .decrement-btn {
+    background: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .decrement-btn:hover {
+    background: white;
+    color: #ffc107;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.7);
+  }
+  
